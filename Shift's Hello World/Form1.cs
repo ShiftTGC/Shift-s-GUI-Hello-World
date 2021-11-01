@@ -16,5 +16,10 @@ namespace Shift_s_Hello_World
         {
             InitializeComponent();
         }
+
+        private void btn_hello_Click(object sender, EventArgs e)
+        {
+            lbl_helloMessage.Text = "Hello interactive GUI!\nI am looking forwards to trying out more stuff with you!";
+        }
     }
 }
